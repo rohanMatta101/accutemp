@@ -1,0 +1,83 @@
+.Display{
+    border:3px solid grey;
+    border-radius: 12px;
+    width: 40%;
+    height: 60%;
+    color:white;
+    padding:15px;
+    z-index: 100;
+    position: relative;
+    left:450px;
+    bottom: 500px;
+    animation-name: show;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+    background-color: transparent;
+    backdrop-filter: blur(1.2px);
+}
+.image{
+ text-align: center;
+ position: relative;
+ left:100px;
+ top:45px;
+ background-color: grey;
+ border-radius: 10px;
+}
+.goBack{
+  position: relative;
+  left:220px;
+  border:2px solid grey;
+  border-radius: 9px;
+  top:65px;
+  padding:10px;
+  background-color: transparent;
+  color:white;
+  font-size: larger;
+  width:30%;
+
+}
+.goBack:hover{
+  color:lightblue;
+}
+.place{
+    text-align: center;
+
+}
+.Temp{
+  font-size: 2.5rem;
+  font-weight: lighter;
+  text-align: center;
+}
+.left{
+  font-size: 1.4rem;
+}
+.right{
+  font-size: 1.4rem;
+  position: relative;
+  left:400px;
+  bottom:46px;
+}
+.data{
+    font-size: 1.4rem;
+    text-align: center;
+    
+}
+.desc{
+  font-size: 2.1rem;
+  font-weight: bold;
+  position: relative;
+  left:300px;
+  bottom: 50px;
+}
+@keyframes show{
+    0%{
+      opacity: 0;
+    }
+    50%{
+       opacity: 0;
+      transform: translateY(20px);
+    }
+    100%{
+      opacity: 1;
+    }
+}

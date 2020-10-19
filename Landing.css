@@ -1,0 +1,123 @@
+.Landing{
+    
+    text-align: center;
+    padding: 150px;
+    position: relative;
+    top:200px;
+    z-index: 0;
+    
+}
+@keyframes example{
+  0%{
+    opacity: 0;
+  }
+  
+  50%{
+    opacity: 0;
+    transform:translateX(-100px);
+  }
+  
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes example1{
+  0%{
+    opacity: 0;
+  }
+  
+  50%{
+    opacity: 0;
+    transform:translateX(100px);
+  }
+  
+  100%{
+    opacity: 1;
+  }
+}
+.Landing button{
+  color: white;
+  font-size: 1.3rem;
+  border: 2.8px solid grey;
+  padding: 20px;
+  width:300px;
+  margin-top:20px ;
+  border-radius: 5px;
+  background-color: transparent;
+  animation-name: example1;
+  animation-duration: 1.3s;
+}
+.Landing button:hover{
+  color: lightblue;
+}
+.Landing h1{
+  color:white;
+  font: larger;
+  font-size: 52px;
+  animation-name: example;
+    animation-duration: 1.3s;
+  
+}
+.LandingRemove{
+  text-align: center;
+    padding: 150px;
+    position: relative;
+    top:200px;
+    z-index: 0;
+  
+}
+.LandingRemove h1{
+  color:white;
+  font: larger;
+  font-size: 52px;
+  animation-name: closeh1;
+  animation-duration: 1.3s;
+  animation-fill-mode: forwards;
+}
+.LandingRemove button{
+  color: white;
+  font-size: 1.3rem;
+  border: 2.5px solid grey;
+  padding: 20px;
+  width:300px;
+  margin-top:20px ;
+  background-color: transparent;
+  border-radius: 5px;
+  animation-name: closebutton;
+  animation-duration: 1.3s;
+  animation-fill-mode: forwards;
+  
+}
+
+
+@keyframes closeh1{
+  0%{
+    opacity: 1;
+  }
+  
+  50%{
+    opacity: 0;
+    transform:translateX(-100px);
+  }
+  
+  100%{
+    opacity: 0;
+    animation: forwards;
+  
+  }
+}
+@keyframes closebutton{
+  0%{
+    opacity: 1;
+  }
+  
+  50%{
+    opacity: 0;
+    transform:translateX(100px);
+  }
+  
+  100%{
+    opacity: 0;
+  }
+  
+}
