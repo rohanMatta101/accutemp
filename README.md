@@ -1,3 +1,1 @@
-# accutemp
-This is a weather application built using Reactjs.Best suited for Desktop/Laptop view
-https://accutemp.herokuapp.com/
+Developed a Weather Application by using React.js and Weather Application Programming Interface(API) 
